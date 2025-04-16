@@ -97,14 +97,14 @@ a:hover {
 
 #header-functions button {
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 0 1.5rem;
 }
 
 button#submit-button {
     background-color: #000000;
     color: #FFFFFF;
-    border: 1px outset #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 button#sign-in-button {
@@ -119,6 +119,26 @@ button#sign-in-button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
     height: 24.8rem;
     background-color: #DADBF1;
+}
+
+#page-title {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+#searchbar {
+    height: 4rem;
+    width: 45rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding: 0.8rem;
+    font-size: 1.3em;
+}
+
+#searchbar:hover,#searchbar:focus {
+    border: 1px solid #4C5FD5;
 }
