@@ -25,3 +25,11 @@ img {
 }
 
 /* css reset end */
+
+header {
+    display: flex;
+    background-color: #000000;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+}
