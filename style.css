@@ -51,9 +51,9 @@ a:hover {
 #header-links {
     display: flex;
     height: 2.25rem;
-    width: 19.5%;
+    width: 19.5rem;
     font-size: 1.6rem;
-    margin-left: 7vw;
+    margin-left: 6.85vw;
     justify-content: space-between;
 }
 
@@ -67,4 +67,27 @@ a:hover {
     width: 2px;
     background-color: #ffffff;
     margin-top: 0.3vh;
+}
+
+#header-functions {
+    display: flex;
+    width: 40rem;
+    height: 3.4rem;
+    margin-right: 6.85vw;
+    justify-content: space-between;
+}
+
+#header-functions #header-searchbar {
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#header-functions #header-searchbar:focus {
+    outline: none;
+}
+
+#header-searchbar {
+    width: 16rem;
 }
