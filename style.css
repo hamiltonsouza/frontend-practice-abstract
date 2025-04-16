@@ -1,9 +1,8 @@
-/* custom digitalocean.com css reset */
+/* digitalocean.com css reset */
 
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: Lato, sans-serif;
 }
 
 *, *:before, *:after {
@@ -27,10 +26,14 @@ img {
 
 /* css reset end */
 
+html {
+    font-family: Lato, sans-serif;
+}
+
 header {
     display: flex;
     background-color: #000000;
-    height: 9.2vh;
+    height: 5.5rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,7 +43,7 @@ header {
 }
 
 a {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -59,13 +62,13 @@ a:hover {
 
 .header-link {
     padding-top: 0.18vh;
-    border-left: #ffffff;
+    border-left: #FFFFFF;
     border-width: 1px;
 }
 
 #links-divider {
     width: 2px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     margin-top: 0.3vh;
 }
 
@@ -100,13 +103,22 @@ a:hover {
 
 button#submit-button {
     background-color: #000000;
-    color: #ffffff;
-    border: 1px outset #ffffff;
+    color: #FFFFFF;
+    border: 1px outset #FFFFFF;
 }
 
 button#sign-in-button {
     background-color: #4C5FD5;
-    color: #ffffff;
+    color: #FFFFFF;
     border: none;
     padding: 0 2rem;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 24.8rem;
+    background-color: #DADBF1;
 }
