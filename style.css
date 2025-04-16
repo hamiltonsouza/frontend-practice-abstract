@@ -30,7 +30,41 @@ img {
 header {
     display: flex;
     background-color: #000000;
-    height: 9vh;
+    height: 9.2vh;
     justify-content: space-between;
     align-items: center;
+}
+
+.abstract-logo {
+    height: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header-links {
+    display: flex;
+    height: 2.25rem;
+    width: 19.5%;
+    font-size: 1.6rem;
+    margin-left: 7vw;
+    justify-content: space-between;
+}
+
+.header-link {
+    padding-top: 0.18vh;
+    border-left: #ffffff;
+    border-width: 1px;
+}
+
+#links-divider {
+    width: 2px;
+    background-color: #ffffff;
+    margin-top: 0.3vh;
 }
