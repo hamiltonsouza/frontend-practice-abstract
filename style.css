@@ -1,8 +1,9 @@
-/* digitalocean.com css reset */
+/* custom digitalocean.com css reset */
 
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: Lato, sans-serif;
 }
 
 *, *:before, *:after {
