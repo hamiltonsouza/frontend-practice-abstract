@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
         <header>
@@ -38,9 +39,11 @@
         </header>
         <div id="search">
             <h1 id="page-title">How can we help?</h1>
-            <form action="submit">
+            <form action="submit" id="searchbar-container">
                 <input type="search" name="search" id="searchbar" placeholder="Search">
-                <button><box-icon name='right-arrow-alt'></box-icon></button>
+                <button id="searchbar-button">
+                    <i class='bx bx-right-arrow-alt'></i>
+                </button>
             </form>
         </div>
         <div id="categories">
@@ -133,6 +136,5 @@
                 <p>All rights reserved</p>
             </div>
         </footer>
-     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     </body>
 </html>

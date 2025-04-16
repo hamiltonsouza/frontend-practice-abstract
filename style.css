@@ -129,6 +129,10 @@ button#sign-in-button {
     font-weight: 500;
 }
 
+#searchbar-container {
+    position: relative;
+}
+
 #searchbar {
     height: 4rem;
     width: 45rem;
@@ -141,4 +145,35 @@ button#sign-in-button {
 
 #searchbar:hover,#searchbar:focus {
     border: 1px solid #4C5FD5;
+}
+
+#searchbar:hover + #searchbar-button {
+    color: #4C5FD5;
+    transition: 0.3s;
+}
+
+#searchbar-button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+}
+
+#searchbar-button:hover {
+    color: #4C5FD5;
+    transition: 0.3s;
+}
+
+#searchbar-button {
+    font-size: 2rem;
+}
+
+/* Peter from css-tricks August 26, 2010 search x removal */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
 }
