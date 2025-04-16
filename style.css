@@ -71,8 +71,8 @@ a:hover {
 
 #header-functions {
     display: flex;
-    width: 40rem;
-    height: 3.4rem;
+    width: 41rem;
+    height: 3.1rem;
     margin-right: 6.85vw;
     justify-content: space-between;
 }
@@ -90,4 +90,23 @@ a:hover {
 
 #header-searchbar {
     width: 16rem;
+}
+
+#header-functions button {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 0 1.5rem;
+}
+
+button#submit-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px outset #ffffff;
+}
+
+button#sign-in-button {
+    background-color: #4C5FD5;
+    color: #ffffff;
+    border: none;
+    padding: 0 2rem;
 }
